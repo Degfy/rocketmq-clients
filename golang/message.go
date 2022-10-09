@@ -107,6 +107,10 @@ func (msg *Message) GetProperties() map[string]string {
 	return msg.properties
 }
 
+func (msg *Message) SetProperties(properties map[string]string) {
+	msg.properties = properties
+}
+
 func (msg *Message) SetDelayTimestamp(deliveryTimestamp time.Time) {
 	msg.deliveryTimestamp = &deliveryTimestamp
 }
