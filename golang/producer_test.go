@@ -24,8 +24,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apache/rocketmq-clients/golang/credentials"
-	v2 "github.com/apache/rocketmq-clients/golang/protocol/v2"
+	"github.com/Degfy/rocketmq-clients/golang/credentials"
+	v2 "github.com/Degfy/rocketmq-clients/golang/protocol/v2"
 	gomock "github.com/golang/mock/gomock"
 	"github.com/prashantv/gostub"
 	"google.golang.org/grpc/metadata"

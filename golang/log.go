@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/apache/rocketmq-clients/golang/pkg/utils"
+	"github.com/Degfy/rocketmq-clients/golang/pkg/utils"
 	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

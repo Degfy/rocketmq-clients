@@ -3,7 +3,6 @@ module github.com/Degfy/rocketmq-clients/golang
 go 1.17
 
 require (
-	github.com/apache/rocketmq-clients/golang v0.0.0-20220929034249-2cf911c74c72
 	github.com/go-playground/validator/v10 v10.11.0
 	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.3.0
@@ -24,6 +23,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	google.golang.org/api v0.15.1 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
 
