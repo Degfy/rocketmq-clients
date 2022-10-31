@@ -137,6 +137,9 @@ func (msg *Message) GetMessageCommon() *MessageCommon {
 }
 
 func (msg *Message) AddProperty(key, value string) {
+	if msg.properties == nil {
+		msg.properties = make(map[string]string)
+	}
 	msg.properties[key] = value
 }
 
